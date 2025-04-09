@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='text-white h-18 sm:h-25 flex sm:justify-around justify-between items-center px-2 sm:px-0'>
       <div className='flex gap-3 sm:gap-8'>
-        <div className='font-[Cute_Font] text-3xl sm:text-5xl'>mod.<span className='text-xl sm:text-3xl'>music</span></div>
+        <div className='font-[Cute_Font] text-5xl'>mod.<span className='text-3xl'>music</span></div>
         <div className=' flex items-center justify-center group relative'>
           <div className='bg-black opacity-30 sm:px-9 sm:py-6 px-7 py-5 rounded-full group-hover:bg-white group-hover:opacity-100 sm:group-active:px-40 group-active:px-25 absolute left-0'></div>
           <svg className='absolute sm:left-5 left-4 fill-white group-hover:fill-[#0036C2] sm:w-8 w-6' viewBox="0 0 34 34" fill="" xmlns="http://www.w3.org/2000/svg">

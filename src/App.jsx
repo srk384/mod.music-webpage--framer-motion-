@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='h-[87vh] sm:min-h-screen bg-[#0036C2] relative'>
+    <div className='h-[80vh] sm:min-h-screen bg-[#0036C2] relative'>
       <Navbar/>
       <Home/>
     </div>

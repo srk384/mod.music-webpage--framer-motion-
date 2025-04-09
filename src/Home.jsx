@@ -9,7 +9,7 @@ const Home = () => {
     </>
   })
 
-  const bgText1 = [...Array(5)].map((_, index) => <span key={index} className={`font-[Cute_Font] text-4xl sm:text-9xl pr-2 sm:pr-6 last:pr-0 opacity-20 ${index === 1 && "opacity-100"} p-0`}>A MODERN</span>)
+  const bgText1 = [...Array(6)].map((_, index) => <span key={index} className={`font-[Cute_Font] text-4xl sm:text-9xl pr-2 sm:pr-6 last:pr-0 opacity-20 ${index === 1 && "opacity-100"} p-0`}>A MODERN</span>)
   const bgText2 = [...Array(5)].map((_, index) => <span key={index} className={`font-[Cute_Font] text-4xl sm:text-9xl pr-2 sm:pr-6 last:pr-0 opacity-20 ${index === 1 && "opacity-100"} p-0`}>{index === 0 ? "USIC AGENCY" : "MUSIC AGENCY"}</span>)
   return (
     <div>
@@ -32,7 +32,7 @@ const Home = () => {
       </section>
 
       <section className='relative'>
-        <button className='bg-white text-blue-800 sm:px-5 sm:py-3 sm:text-md px-3 py-2 text-sm font-bold rounded-md shadow-xl font-[poppins] absolute right-1/2 translate-x-1/2 -top-6 hover:text-white hover:bg-[#002FA8] cursor-pointer z-30 border-2'>Share your music</button>
+        <button className='bg-white text-blue-800 sm:px-5 sm:text-md px-3 py-3 text-sm font-bold rounded-md shadow-xl font-[poppins] absolute right-1/2 translate-x-1/2 -top-6 hover:text-white hover:bg-[#002FA8] cursor-pointer z-30 border-2'>Share your music</button>
       </section>
 
       <section className='py-15 sm:py-22 bg-[#002FA8] flex items-center overflow-hidden'>
@@ -44,7 +44,7 @@ const Home = () => {
           {features}
         </motion.div>
       </section>
-      <section className='h-20 bg-[#101C3B] w-full absolute bottom-0 z-20'></section>
+      <section className='h-20.5 bg-[#101C3B] w-full relative z-20'></section>
     </div>
   )
 }
